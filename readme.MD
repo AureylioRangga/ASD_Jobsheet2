@@ -99,7 +99,7 @@ PERCOBAAN 3
    secara berurutan? Jelaskan alasannya!
    Jawab : Tidak, Method bisa dipanggil bebas
            contoh: mhs1.updateIpk(3.5);
-                   mhs1.tampilkanInformasi();
+                   mhs1.tampilkanInformasi(); 
            
 5. Buat object baru dengan nama mhs<NamaMahasiswa> menggunakan konstruktor
    berparameter dari class Mahasiswa!
