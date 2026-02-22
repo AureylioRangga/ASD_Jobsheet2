@@ -8,10 +8,10 @@ public class Mahasiswa07 {
 
     // method tampilkan informasi
     void tampilkanInformasi() {
-        System.out.println("Nama: " + nim);
-        System.out.println("NIM: " + nama);
-        System.out.println("IPK: " + kelas);
-        System.out.println("Kelas: " + ipk);
+        System.out.println("Nama: " + nama);
+        System.out.println("NIM: " + nim);
+        System.out.println("IPK: " + ipk);
+        System.out.println("Kelas: " + kelas);
     }
 
     // method ubah kelas
