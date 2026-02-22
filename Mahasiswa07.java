@@ -1,0 +1,44 @@
+public class Mahasiswa07 {
+
+    // atribut
+    String nama;
+    String nim;
+    String kelas;
+    double ipk;
+
+    // method tampilkan informasi
+    void tampilkanInformasi() {
+        System.out.println("Nama: " + nim);
+        System.out.println("NIM: " + nama);
+        System.out.println("IPK: " + kelas);
+        System.out.println("Kelas: " + ipk);
+    }
+
+    // method ubah kelas
+    void ubahKelas(String kelasBaru) {
+        kelas = kelasBaru;
+    }
+
+    // method update ipk (sudah validasi)
+    void updateIpk(double ipkBaru) {    
+        if (ipkBaru >= 0.0 && ipkBaru <= 4.0) {
+            ipk = ipkBaru;
+        } else {
+            System.out.println("IPK tidak valid. Harus antara 0.0 dan 4.0");
+        }
+    }
+
+    // method nilai kinerja
+    String nilaiKinerja(double ipk) {
+
+        if (ipk >= 3.5) {
+            return "Kinerja Sangat Baik";
+        } else if (ipk >= 3.0) {
+            return "Kinerja Baik";
+        } else if (ipk >= 2.0) {
+            return "Kinerja Cukup";
+        } else {
+            return "Kinerja Kurang";
+        }
+    }
+}
