@@ -16,5 +16,10 @@ public class Percobaan3 {
         Mahasiswa07 mhs2 = new Mahasiswa07("Annisa Nabila","2141720160",3.25,"TI 2L");
         mhs2.updateIpk(3.30);
         mhs2.tampilkanInformasi();
+
+        Mahasiswa07 mhs3 = new Mahasiswa07("Aureylio Rangga","244107060163",3.5,"SIB 1E");
+        mhs3.updateIpk(3.5);
+        mhs3.tampilkanInformasi();
+        
     }
 }

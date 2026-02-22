@@ -74,3 +74,37 @@ PERCOBAAN 2
            jadi output berubah
 
 
+PERCOBAAN 3
+
+1. Pada class Mahasiswa di Percobaan 3, tunjukkan baris kode program yang digunakan untuk
+   mendeklarasikan konstruktor berparameter!
+   Jawab : Mahasiswa(String nim, String nama, String kelas, double ipk){
+           this.nim = nim;
+           this.nama = nama;
+           this.kelas = kelas;
+           this.ipk = ipk;
+           }   
+
+2. Perhatikan class MahasiswaMain. Apa sebenarnya yang dilakukan pada baris program
+   berikut?
+   Jawab : Baris ini membuat object baru menggunakan konstruktor
+
+3. Hapus konstruktor default pada class Mahasiswa, kemudian compile dan run program.
+   Bagaimana hasilnya? Jelaskan mengapa hasilnya demikian!
+   Jawab : Program akan Error, Karena object tanpa parameter tidak bisa dibuat
+           Contoh: Mahasiswa mhs1 = new Mahasiswa();
+                   tidak bisa digunakan
+
+4. Setelah melakukan instansiasi object, apakah method di dalam class Mahasiswa harus diakses
+   secara berurutan? Jelaskan alasannya!
+   Jawab : Tidak, Method bisa dipanggil bebas
+           contoh: mhs1.updateIpk(3.5);
+                   mhs1.tampilkanInformasi();
+           
+5. Buat object baru dengan nama mhs<NamaMahasiswa> menggunakan konstruktor
+   berparameter dari class Mahasiswa!
+   Jawab : Sudah 
+
+6. Commit dan push kode program ke Github
+   Jawab : Sudah
+
