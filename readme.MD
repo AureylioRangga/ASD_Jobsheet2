@@ -58,7 +58,7 @@ PERCOBAAN 2
 
 1. Pada class MahasiswaMain, tunjukkan baris kode program yang digunakan untuk proses
    instansiasi! Apa nama object yang dihasilkan?
-   Jawab : code : Mahasiswa07 mhs1 = new Mahasiswa07();
+   Jawab : Mahasiswa07 mhs1 = new Mahasiswa07();
            - nama object = mhs1
 
 2. Bagaimana cara mengakses atribut dan method dari suatu objek?
@@ -68,5 +68,9 @@ PERCOBAAN 2
 
 3. Mengapa hasil output pemanggilan method tampilkanInformasi() pertama dan kedua berbeda?
    Jawab : Karena nilai kelas dan IPK sudah diubah menggunakan method:
-           code : ubahKelas()
-                  updateIpk()
+           contoh: 
+           sebelum: kelas = TI1
+           sesudah: kelas = TI2
+           jadi output berubah
+
+
