@@ -13,6 +13,5 @@ public class MahasiswaMain07 {
         mhs1.updateIpk(3.60);
         mhs1.tampilkanInformasi();
 
-        System.out.println("Nilai kinerja: " + mhs1.nilaiKinerja(mhs1.ipk));
     }
 }
