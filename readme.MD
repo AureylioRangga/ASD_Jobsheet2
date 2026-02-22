@@ -2,18 +2,22 @@ Percobaan 1
 
 1. Sebutkan dua karakteristik class atau object!
    Jawab :
-   Memiliki atribut (data)
-   Memiliki method (perilaku)
+   Memiliki atribut (property/data)
+   - yaitu variabel yang menyimpan data dari object
+     contoh: nim, nama, kelas, ipk
+   Memiliki method (perilaku/fungsi)
+   - yaitu fungsi yang dapat dilakukan object 
+     contoh: tampilkanInformasi(), ubahKelas()
 
 2. Perhatikan class Mahasiswa pada Praktikum 1 tersebut, ada berapa atribut yang dimiliki oleh    
    class Mahasiswa? Sebutkan apa saja atributnya!
    Jawab : 
    Ada 4 atribut
    yaitu:
-   -nim
-   -nama
-   -kelas
-   -ipk
+   -nim (String)
+   -nama (String)
+   -kelas (String)
+   -ipk (double)
 
 3. Ada berapa method yang dimiliki oleh class tersebut? Sebutkan apa saja methodnya!
    Jawab :
