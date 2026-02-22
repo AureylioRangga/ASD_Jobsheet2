@@ -21,7 +21,7 @@ public class Dosen07 {
         this.bidangKeahlian = bidangKeahlian;
     }
 
-    // method tampilkan informasi
+    // method tampilkan informasi 
     void tampilInformasi() {
         System.out.println("ID Dosen        : " + idDosen);
         System.out.println("Nama            : " + nama);
